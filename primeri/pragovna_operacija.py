@@ -13,7 +13,7 @@ def premikaj_prag(siva, zacetek,konec, korak):
 
 
 if __name__ == "__main__":
-    slika = cv.imread("../.utils/lenna.png")
+    slika = cv.imread("./.utils/lenna.png")
     siva = cv.cvtColor(slika, cv.COLOR_BGR2GRAY)
 
     print(siva.shape)

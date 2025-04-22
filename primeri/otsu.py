@@ -11,6 +11,6 @@ def otsu(slika):
     cv.waitKey(0)
 
 if __name__ == "__main__":
-    slika = cv.imread("../.utils/lenna.png")
+    slika = cv.imread("./.utils/lenna.png")
     otsu(slika)
     cv.destroyAllWindows()
