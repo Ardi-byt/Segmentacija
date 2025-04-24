@@ -1,4 +1,5 @@
 import cv2 as cv
+import numpy as np
 
 def kmeans(slika, k=3, iteracije=10):
     '''Izvede segmentacijo slike z uporabo metode k-means.'''
