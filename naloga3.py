@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-def kmeans(slika, k=3, iteracije=10):
+def kmeans(slika, k=3, iteracije=10): #Koncana K-means funkcija
     '''Izvede segmentacijo slike z uporabo metode k-means.'''
     visina, sirina, _ = slika.shape #Dobimo dimenzije slike
     slika = slika.astype(np.float32)
