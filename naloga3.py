@@ -1,6 +1,10 @@
 import cv2 as cv
 import numpy as np
 
+def gaussovo_jedro(d,h):
+    #Enacba za izracun jedra po formuli 
+    return np.exp(-d**2 / (2* h**2))
+
 def kmeans(slika, k=3, iteracije=10): #Koncana K-means funkcija
     '''Izvede segmentacijo slike z uporabo metode k-means.'''
     visina, sirina, _ = slika.shape #Dobimo dimenzije slike
