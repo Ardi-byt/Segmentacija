@@ -1,1 +1,0 @@
-razdalje = np.linalg.norm(piksli[:, None] - centri, axis=2)
