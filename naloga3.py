@@ -48,7 +48,7 @@ def kmeans(slika, k=3, iteracije=10): #Koncana K-means funkcija
     return segmentirana
 
 
-def meanshift(slika, h, dimenzija):
+def meanshift(slika, h, dimenzija): #Done
     """Izvede segmentacijo slike z uporabo mean-shift algoritma."""
     # Zmanjšaj sliko na 100x100 za hitrejšo obdelavo
     slika_mala = cv.resize(slika, (300, 300), interpolation=cv.INTER_AREA)
